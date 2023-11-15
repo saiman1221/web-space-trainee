@@ -14,7 +14,7 @@ export interface IInstagramCardProps {
 }
 
 export interface IInstagramCards {
-    image: StaticImageData,
+    image: string,
     text: string
 }
 
