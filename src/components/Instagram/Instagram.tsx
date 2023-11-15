@@ -2,7 +2,7 @@
 import React, {useEffect} from 'react';
 import s from './Instagram.module.scss'
 import {IInstagramCards} from "@/types/types";
-import Instafeed from 'instafeed.js'
+// import Instafeed from 'instafeed.js'
 
 import InstagramCard from "@/components/Instagram/Instagram-card";
 
@@ -46,12 +46,12 @@ const Instagram = () => {
         return instagramData.map((el, id) => <InstagramCard cardData={el} key={id}/>)
     }
 
-    useEffect(() => {
-        let feed = new Instafeed({
-            accessToken: ''
-        });
-        feed.run();
-    })
+    // useEffect(() => {
+    //     let feed = new Instafeed({
+    //         accessToken: ''
+    //     });
+    //     feed.run();
+    // })
 
     return (
         <div className={s.content}>

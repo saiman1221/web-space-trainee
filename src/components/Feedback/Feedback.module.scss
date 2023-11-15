@@ -1,0 +1,92 @@
+.layout {
+  position: relative;
+
+  .content {
+    padding: 90px 0;
+    display: grid;
+    grid-template-areas: "empty form";
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+
+    .form {
+      position: relative;
+      grid-area: form;
+      width: 60%;
+      padding: 30px 105px 30px 45px;
+      background: #FFF;
+      box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.25);
+      pointer-events: visible;
+
+      .title {
+        color: rgba(0, 0, 0, 0.40);
+        font-family: Nunito, sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 45px;
+      }
+
+      .inputs {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 25px;
+
+        input {
+          width: 100%;
+          padding: 13px 40px;
+          background: #D9D9D9;
+          color: rgba(0, 0, 0, 0.50);
+          font-family: Nunito, sans-serif;
+          font-size: 17px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 140%;
+          outline: none;
+          border: none;
+        }
+      }
+
+      .submit {
+        position: absolute;
+        top: 100%;
+        left: 100%;
+        transform: translateX(-75%) translateY(-50%);
+        padding: 17px 100px 17px 130px;
+        background: #000513;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        color: #FFF;
+        font-family: Nunito, sans-serif;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 200%;
+        cursor: pointer;
+        transition: 0.4s;
+
+        &:after {
+          content: '→';
+        }
+
+        &:hover {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}
+

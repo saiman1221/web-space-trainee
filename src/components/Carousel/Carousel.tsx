@@ -26,8 +26,6 @@ const Carousel = () => {
         return carouselData.map((el, id) => <CarouselCard cardData={el} key={id}/>)
     }
 
-
-
     const markersRender = (carouselData: ICarouselCard[]) => {
         return carouselData.map((el, id) => {
             const buttonClassName = classNames([s.button as string], {
