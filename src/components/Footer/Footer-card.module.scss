@@ -1,0 +1,27 @@
+.card {
+  .title {
+    color: #FFF;
+    font-family: Nunito, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    padding-left: 20px;
+    color: #FFF;
+    font-family: Nunito, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  a:hover {
+    color: rgba(255,255,255,0.4);
+  }
+}
