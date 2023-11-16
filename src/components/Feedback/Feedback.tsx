@@ -1,5 +1,5 @@
 'use client'
-import React, {createRef, useState} from 'react';
+import React, {createRef, SyntheticEvent, useState} from 'react';
 import s from './Feedback.module.scss';
 import emailjs from "@emailjs/browser";
 
@@ -19,7 +19,7 @@ const Feedback = () => {
     const form = createRef();
 
 
-    const sendEmail = (e) => {
+    const sendEmail = (e: SyntheticEvent) => {
         e.preventDefault();
 
         checkbox && emailjs.sendForm('service_2u15sxt', 'template_pufalpd', form.current, 'KFssP99hWmylhvCrU')
