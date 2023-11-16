@@ -6,7 +6,6 @@ import emailjs from "@emailjs/browser";
 import YandexMap from "@/components/Map/YandexMap";
 import Image from "next/image";
 
-import checkbox from '@public/checkbox.svg';
 import marker from '@public/marker.svg';
 import classNames from "classnames";
 
@@ -16,7 +15,7 @@ const Feedback = () => {
 
     const [checkbox, setCheckbox] = useState<boolean>(false)
 
-    const form = createRef();
+    const form = createRef<HTMLFormElement>();
 
 
     const sendEmail = (e: SyntheticEvent) => {
