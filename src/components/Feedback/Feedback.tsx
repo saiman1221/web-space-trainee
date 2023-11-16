@@ -15,7 +15,7 @@ const Feedback = () => {
 
     const [checkbox, setCheckbox] = useState<boolean>(false)
 
-    const form = useRef<HTMLFormElement>();
+    const form = useRef<string | HTMLFormElement>(''!);
 
 
     const sendEmail = (e: SyntheticEvent) => {
@@ -46,7 +46,7 @@ const Feedback = () => {
                     <h2 className={s.title}>Обратный звонок</h2>
                     <div className={s.inputs}>
                         <input type="text" name="user_name" placeholder={'Ваше имя'} value={userName} onChange={(e) => setUserName(e.target.value)} required={true}/>
-                        <input type="text" name="user_phone" placeholder={'Номер телефона'} value={userPhone} onChange={(e) => setUserPhone(e.target.value)} required={true}/>
+                        <input type="tel" name="user_phone" placeholder={'Номер телефона'} value={userPhone} onChange={(e) => setUserPhone(e.target.value)} required={true}/>
                     </div>
                     <div className={s.checkbox}>
                         <button className={buttonClassName} onClick={checkboxButton}><Image src={marker} alt={'Marker'}/></button><span className={s.text}>Согласие на обработку персональных данных</span>
