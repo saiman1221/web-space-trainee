@@ -1,65 +1,36 @@
 'use client'
-import React, {useEffect} from 'react';
-import s from './Instagram.module.scss'
-import {IInstagramCards} from "@/types/types";
-// import Instafeed from 'instafeed.js'
+import React, {useEffect, useState} from 'react';
+import s from './Instagram.module.scss';
 
 import InstagramCard from "@/components/Instagram/Instagram-card";
 
 const Instagram = () => {
-    const instagramData: IInstagramCards[] = [
-        {
-            image: '',
-            text: 'text'
-        },
-        {
-            image: '',
-            text: 'text'
-        },
-        {
-            image: '',
-            text: 'text'
-        },
-        {
-            image: '',
-            text: 'text'
-        },
-        {
-            image: '',
-            text: 'text'
-        },
-        {
-            image: '',
-            text: 'text'
-        },
-        {
-            image: '',
-            text: 'text'
-        },
-        {
-            image: '',
-            text: 'text'
-        },
-    ]
+    const [instData, setInstData] = useState(null);
 
-    const instagramCardsRender = (instagramData: IInstagramCards[]) => {
-        return instagramData.map((el, id) => <InstagramCard cardData={el} key={id}/>)
+    const fetchData = () => {
+        fetch("https://feeds.behold.so/sSDPAWPgv9LT3paSxzmb")
+            .then(response => {
+                return response.json()
+            })
+            .then(data => {
+                setInstData(data)
+            })
     }
 
-    // useEffect(() => {
-    //     let feed = new Instafeed({
-    //         accessToken: ''
-    //     });
-    //     feed.run();
-    // })
+    useEffect(() => {
+        fetchData()
+    }, [instData])
+
+    const instagramCardsRender = (instData) => {
+        return instData.map((el, id) => <InstagramCard cardData={{image: el.mediaUrl, text: el.caption, width: el.dimensions.width, height: el.dimensions.height, url: el.permalink}} key={id}/>)
+    }
 
     return (
         <div className={s.content}>
             <h2 className={s.title}>Instagram</h2>
             <div className={s.cards}>
-                {instagramCardsRender(instagramData)}
+                {instData && instagramCardsRender(instData)}
             </div>
-            <div id="instafeed"></div>
         </div>
     );
 };

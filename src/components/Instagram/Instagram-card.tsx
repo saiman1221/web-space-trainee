@@ -4,9 +4,12 @@ import {IInstagramCardProps} from "@/types/types";
 
 const InstagramCard = (props: IInstagramCardProps) => {
     return (
-        <div className={s.card}>
-            {props.cardData.text}
-        </div>
+        <a href={props.cardData.url} className={s.card}>
+            <img src={props.cardData.image} alt={'Post photo'}/>
+            <div className={s.content}>
+                <p>{props.cardData.text}</p>
+            </div>
+        </a>
     );
 };
 

@@ -9,16 +9,22 @@ import CarouselCard from "@/components/Carousel/Carousel-card";
 const Carousel = () => {
     const carouselData: ICarouselCard[] = [
         {
-            title: 'title',
-            text: 'text'
+            title: 'Сложность задания',
+            text: 'Миссия с вертолетиком была легче..',
+            score: '5',
+            scoreText: 'звезд'
         },
         {
-            title: 'title',
-            text: 'text'
+            title: 'Потребовалось на тестовое задание:',
+            text: 'Справился быстро, забыл пообедать',
+            score: '9',
+            scoreText: 'часов'
         },
         {
-            title: 'title',
-            text: 'text'
+            title: 'Оценка дизайнеру:',
+            text: 'Не заслужил,  там криво, там непонятно',
+            score: '3',
+            scoreText: 'и не более'
         }
     ]
 

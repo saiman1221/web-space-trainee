@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7ec5f0a-73a1-4cca-8c1d-4cd59c02d039" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Feedback/Feedback.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Feedback/Feedback.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Map/YandexMap.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel-card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel-card.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel-card.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Feedback/Feedback.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feedback/Feedback.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Feedback/Feedback.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feedback/Feedback.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Instagram/Instagram-card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Instagram/Instagram-card.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Instagram/Instagram-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Instagram/Instagram-card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Instagram/Instagram.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Instagram/Instagram.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Instagram/Instagram.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Instagram/Instagram.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +38,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Slava/Work/GitHub/web-space-trainee/src/components/Map&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Slava\\Work\\GitHub\\web-space-trainee\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Slava/Work/GitHub/project-onliner-vishki/src/common_components/Feedback/Feedback.js",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\Slava\\Work\\GitHub\\web-space-trainee\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Slava\Work\GitHub\web-space-trainee\src\components\Map" />
@@ -59,7 +65,8 @@
       <updated>1699995047296</updated>
       <workItem from="1699995049336" duration="1929000" />
       <workItem from="1700057314076" duration="7486000" />
-      <workItem from="1700085463882" duration="673000" />
+      <workItem from="1700085463882" duration="7125000" />
+      <workItem from="1700113963765" duration="3516000" />
     </task>
     <servers />
   </component>

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@pbe/react-yandex-maps": "^1.2.5",
     "classnames": "^2.3.2",
     "instafeed.js": "^2.0.0",

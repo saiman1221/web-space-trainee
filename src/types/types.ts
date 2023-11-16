@@ -1,12 +1,12 @@
-import {StaticImageData} from "next/image";
+export interface ICarouselCardProps {
+    cardData: ICarouselCard
+}
 
 export interface ICarouselCard {
     title: string,
-    text: string
-}
-
-export interface ICarouselCardProps {
-    cardData: ICarouselCard
+    text: string,
+    score: string,
+    scoreText: string
 }
 
 export interface IInstagramCardProps {
@@ -15,7 +15,10 @@ export interface IInstagramCardProps {
 
 export interface IInstagramCards {
     image: string,
-    text: string
+    text: string,
+    width: number,
+    height: number,
+    url: string
 }
 
 export interface IFooterCardProps {

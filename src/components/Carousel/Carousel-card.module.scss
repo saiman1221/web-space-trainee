@@ -1,17 +1,56 @@
 .card {
   min-height: 100%;
   width: 100%;
-  padding: 20px;
+  padding: 20px 30px;
 
   .content {
     width: 100%;
     height: 100%;
-    padding: 50px;
+    padding: 10px 30px;
     background: #FFF;
     box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    display: flex;
+    gap: 100px;
 
-    p {
-      font-size: 40px;
+    .score {
+      color: #A4A4A4;
+      font-family: Nunito, sans-serif;
+      font-size: 250px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 100%; /* 250px */
+    }
+
+    .score_text {
+      position: absolute;
+      bottom: 10px;
+      left: 30px;
+      color: #A4A4A4;
+      font-family: Nunito, sans-serif;
+      font-size: 128px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 100%; /* 128px */
+    }
+
+    .title {
+      color: #000;
+      font-family: Nunito, sans-serif;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin: 28px 0;
+    }
+
+    .text {
+      color: #000;
+      font-family: Nunito, sans-serif;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
     }
   }
 }
