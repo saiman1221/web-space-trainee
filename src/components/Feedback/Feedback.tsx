@@ -15,7 +15,7 @@ const Feedback = () => {
 
     const [checkbox, setCheckbox] = useState<boolean>(false)
 
-    const form = createRef<HTMLFormElement>();
+    const form = createRef<string | HTMLFormElement>();
 
 
     const sendEmail = (e: SyntheticEvent) => {
