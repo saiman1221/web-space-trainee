@@ -15,13 +15,13 @@ const Feedback = () => {
 
     const [checkbox, setCheckbox] = useState<boolean>(false)
 
-    const form = createRef<HTMLFormElement>();
+    const form = createRef<string | HTMLFormElement>();
 
 
     const sendEmail = (e: SyntheticEvent) => {
         e.preventDefault();
 
-        checkbox && emailjs.sendForm('service_2u15sxt', 'template_pufalpd', form!.current, 'KFssP99hWmylhvCrU')
+        checkbox && emailjs.sendForm('service_2u15sxt', 'template_pufalpd', form.current, 'KFssP99hWmylhvCrU')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
