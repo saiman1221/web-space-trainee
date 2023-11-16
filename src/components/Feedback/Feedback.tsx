@@ -8,7 +8,6 @@ import Image from "next/image";
 
 import marker from '@public/marker.svg';
 import classNames from "classnames";
-import {string} from "prop-types";
 
 const Feedback = () => {
     const [userName, setUserName] = useState<string>('');
@@ -16,7 +15,7 @@ const Feedback = () => {
 
     const [checkbox, setCheckbox] = useState<boolean>(false)
 
-    const form = useRef<string | HTMLFormElement>('');
+    const form = useRef<HTMLFormElement>();
 
 
     const sendEmail = (e: SyntheticEvent) => {
