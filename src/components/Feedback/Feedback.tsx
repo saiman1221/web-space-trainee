@@ -21,7 +21,7 @@ const Feedback = () => {
     const sendEmail = (e: SyntheticEvent) => {
         e.preventDefault();
 
-        checkbox && emailjs.sendForm('service_2u15sxt', 'template_pufalpd', form.current, 'KFssP99hWmylhvCrU')
+        checkbox && emailjs.sendForm('service_2u15sxt', 'template_pufalpd', form!.current, 'KFssP99hWmylhvCrU')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {

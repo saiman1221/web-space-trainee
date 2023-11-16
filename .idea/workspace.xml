@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7ec5f0a-73a1-4cca-8c1d-4cd59c02d039" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel-card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel-card.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel-card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Feedback/Feedback.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feedback/Feedback.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Feedback/Feedback.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feedback/Feedback.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Instagram/Instagram-card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Instagram/Instagram-card.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Instagram/Instagram-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Instagram/Instagram-card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Instagram/Instagram.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Instagram/Instagram.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Instagram/Instagram.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Instagram/Instagram.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +51,7 @@
       <workItem from="1699995049336" duration="1929000" />
       <workItem from="1700057314076" duration="7486000" />
       <workItem from="1700085463882" duration="7125000" />
-      <workItem from="1700113963765" duration="3516000" />
+      <workItem from="1700113963765" duration="3947000" />
     </task>
     <servers />
   </component>
