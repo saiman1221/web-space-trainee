@@ -8,7 +8,7 @@ const Instagram = () => {
     const [instData, setInstData] = useState(null);
 
     const fetchData = () => {
-        fetch("https://feeds.behold.so/sSDPAWPgv9LT3paSxzmb")
+        fetch("https://feeds.behold.so/TgjkUzmTLWujXDfkBMef")
             .then(response => {
                 return response.json()
             })

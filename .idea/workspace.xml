@@ -4,6 +4,7 @@
     <list default="true" id="d7ec5f0a-73a1-4cca-8c1d-4cd59c02d039" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Feedback/Feedback.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feedback/Feedback.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Instagram/Instagram.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Instagram/Instagram.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +25,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Slava/Work/GitHub/project-onliner-vishki/src/common_components/Feedback/Feedback.js",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\Slava\\Work\\GitHub\\web-space-trainee\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Slava/Work/GitHub/project-onliner-vishki/src/common_components/Feedback/Feedback.js&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Slava\\Work\\GitHub\\web-space-trainee\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Slava\Work\GitHub\web-space-trainee\src\components\Map" />
@@ -52,7 +53,8 @@
       <workItem from="1699995049336" duration="1929000" />
       <workItem from="1700057314076" duration="7486000" />
       <workItem from="1700085463882" duration="7125000" />
-      <workItem from="1700113963765" duration="6779000" />
+      <workItem from="1700113963765" duration="7482000" />
+      <workItem from="1700395821892" duration="1706000" />
     </task>
     <servers />
   </component>
